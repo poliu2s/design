@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+  height: 100%; }
+
+.container {
+  min-width: 940px;
+  height: 100%;
+  margin: 0px; }
+
+.header {
+  border: 0px;
+  padding: 0px 50px 30px 50px; }
+  .header .double_happy_logo {
+    margin: auto;
+    width: 113px;
+    height: 132px; }
+
+.top_nav {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 0px 50px 0px; }
+  .top_nav ul {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center; }
+  .top_nav li {
+    font-family: "Times New Roman";
+    padding: 10px 10px 0px 0px;
+    list-style-type: none;
+    display: inline; }
+  .top_nav a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px; }
+    .top_nav a:hover {
+      color: white;
+      background-color: black; }
+
+.content {
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto; }
+  .content .content_blk_opening {
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 50px;
+    height: 200px; }
+    .content .content_blk_opening .opening_media {
+      display: inline; }
+      .content .content_blk_opening .opening_media img {
+        width: 300px;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        float: left; }
+      .content .content_blk_opening .opening_media video {
+        width: 300px;
+        height: 200px;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        float: left; }
+  .content .content_blk_city {
+    text-align: right;
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 50px; }
+    .content .content_blk_city .content_blk_city_title {
+      background-color: #00658f;
+      padding: 15px 15px 15px 0px;
+      margin: 0px; }
+      .content .content_blk_city .content_blk_city_title h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px; }
+      .content .content_blk_city .content_blk_city_title p {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        font-size: 12px; }
+    .content .content_blk_city .content_blk_city_text {
+      background-color: #eaebed;
+      margin: 0px;
+      padding: 20px; }
+      .content .content_blk_city .content_blk_city_text p {
+        padding: 0px;
+        margin: 0px;
+        text-align: right;
+        font-size: 12px; }
+  .content .content_blk_media {
+    text-align: right;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 50px; }
+    .content .content_blk_media .content_blk_media_title {
+      background-color: black;
+      padding: 15px 15px 15px 0px;
+      margin: 0px; }
+      .content .content_blk_media .content_blk_media_title h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px; }
+  .content .content_blk_credits {
+    text-align: right;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 50px; }
+    .content .content_blk_credits .content_blk_credits_title {
+      background-color: #00658f;
+      padding: 15px 15px 15px 0px;
+      margin: 0px; }
+      .content .content_blk_credits .content_blk_credits_title h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px; }
+    .content .content_blk_credits .content_blk_credits_text {
+      background-color: #eaebed;
+      margin: 0px 0px 0px auto;
+      padding: 20px; }
+      .content .content_blk_credits .content_blk_credits_text table {
+        margin: 0px 0px 0px auto; }
+      .content .content_blk_credits .content_blk_credits_text td {
+        font-size: 12px; }
+      .content .content_blk_credits .content_blk_credits_text p {
+        padding: 0px;
+        margin: 0px;
+        text-align: right; }
+
+.footer .footer_city_shadow {
+  width: 100%;
+  padding-bottom: 1.5em;
+  margin: auto;
+  width: 942px;
+  height: 308px; }
+.footer .footer_black_bar {
+  background-color: black;
+  height: 2em;
+  margin-top: -2em;
+  position: relative;
+  clear: both;
+  z-index: 10; }

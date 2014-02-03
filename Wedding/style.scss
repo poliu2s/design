@@ -1,0 +1,253 @@
+$top_nav_font: "Times New Roman";
+$content_hz_border: 100px;
+$heading_blue: #00658f;
+$blk_grey: #eaebed;
+$blk_spacing: 50px;
+
+$city_text_font_size: 12px;
+$credits_text_font_size: 12px;
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.container {
+  min-width: 940px;
+  height: 100%;
+  margin: 0px;
+
+}
+
+.header {
+  border: 0px;
+  padding: 0px 50px 30px 50px;
+
+  .double_happy_logo {
+    margin: auto;
+    width: 113px;
+    height: 132px;
+  }
+}
+
+.top_nav {
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 0px $blk_spacing 0px;
+
+
+  ul {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  li {
+    font-family: $top_nav_font;
+    padding: 10px 10px 0px 0px;
+    list-style-type: none;
+    display: inline;
+
+  }
+  a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}
+
+$opening_pic_height: 200px;
+$opening_pic_width: 300px;
+
+
+.content {
+  height: 100%;
+  padding-left: $content_hz_border;
+  padding-right: $content_hz_border;
+  margin: auto;
+
+  .content_blk_opening {
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: $blk_spacing;
+    height: $opening_pic_height;
+
+    .opening_media {
+      display: inline;
+
+      img {
+        width: $opening_pic_width;
+        height: $opening_pic_height;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        float: left;
+
+      }
+
+      video {
+        width: $opening_pic_width;
+        height: $opening_pic_height;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        float: left;
+      }
+    }
+
+  }
+
+  .content_blk_city{
+    text-align: right;
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0px auto 0px auto;
+    padding-bottom: $blk_spacing;
+
+
+    .content_blk_city_title {
+      background-color: $heading_blue;
+      padding: 15px 15px 15px 0px;
+      margin: 0px;
+
+      h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px;
+      }
+      p {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        font-size: $city_text_font_size;
+      }
+    }
+
+    .content_blk_city_text {
+      background-color: $blk_grey;
+      margin: 0px;
+      padding: 20px;
+
+      p {
+        padding: 0px;
+        margin: 0px;
+        text-align: right;
+        font-size: $city_text_font_size;
+      }
+    }
+
+
+
+  }
+
+
+  .content_blk_media {
+    text-align: right;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: $blk_spacing;
+
+    .content_blk_media_title {
+      background-color: black;
+      padding: 15px 15px 15px 0px;
+      margin: 0px;
+
+      h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .content_blk_media_nav {
+
+    }
+
+    .content_blk_media_gallery {
+
+    }
+
+
+  }
+
+  .content_blk_credits{
+    text-align: right;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0px auto 0px auto;
+    padding-bottom: $blk_spacing;
+
+    .content_blk_credits_title {
+      background-color: $heading_blue;
+      padding: 15px 15px 15px 0px;
+      margin: 0px;
+
+      h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px;
+      }
+    }
+
+    .content_blk_credits_text {
+      background-color: $blk_grey;
+      margin: 0px 0px 0px auto;
+      padding: 20px;
+
+      table {
+        margin: 0px 0px 0px auto;
+      }
+
+      td {
+        font-size: $credits_text_font_size;
+      }
+
+      p {
+        padding: 0px;
+        margin: 0px;
+        text-align: right;
+
+      }
+    }
+  }
+}
+
+
+
+.footer {
+  .footer_city_shadow {
+    width: 100%;
+    padding-bottom: 1.5em;
+    margin: auto;
+    width: 942px;
+    height: 308px;
+
+  }
+
+  .footer_black_bar {
+    background-color: black;
+    height: 2em;
+    margin-top: -2em;
+    position: relative;
+    clear: both;
+    z-index: 10;
+  }
+}
