@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container" id="container">
     <div class="header">
         <div class="double_happy_logo"><img src="img/justin_and_manus.jpg"></div>
     </div>
@@ -33,10 +33,10 @@
             <div class="opening_media">
                 <img src="img/morning.jpg" alt="Picture1" rel="#over2">
                 <div class="simple_overlay" id="over2">
-                    <a class="close"></a>
-                    <video controls class="video-js vjs-default-skin">
-                        <source src="video/oceans.mp4" type="video/mp4" rel="#topvid">
-                        Morning on the Brooklyn Bridge
+                    <a class="close" id="close1"></a>
+                    <video controls class="video-js vjs-default-skin" id="morning">
+                        <source src="video/oceans.mp4" type="video/mp4">
+                        Morning on the Brooklyn Bridge: Video not supported.
                     </video>
                 </div>
 
@@ -45,8 +45,6 @@
                     <a class="close"></a>
                     <img src="img/pic1.jpg" alt="Picture1">
                 </div>
-
-
             </div>
         </div>
         <div class="content_blk_city">
@@ -130,8 +128,18 @@
 
 <script>
     $(document).ready(function() {
-        $("img[rel]").overlay();
+        $("img[rel]").overlay({mask: '#000'});
     });
+
+    var overlay = document.getElementById('over2');
+    var video = document.getElementById('morning');
+    var video_close = document.getElementById('close1');
+    overlay.onclick = function() {
+        video.pause();
+    }
+    video_close.onclick = function() {
+        video.pause();
+    }
 </script>
 
 </body>

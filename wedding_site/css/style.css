@@ -70,10 +70,10 @@ body {
       .content .content_blk_opening .opening_media .simple_overlay {
         display: none;
         z-index: 10000;
-        background-color: #333;
+        background-color: black;
         width: 900px;
         height: 600px;
-        border: 1px solid #666;
+        border: 1px solid black;
         margin-left: auto;
         margin-right: auto;
         -moz-box-shadow: 0 0 90px 5px #000;
