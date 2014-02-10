@@ -66,8 +66,10 @@ body {
   }
 }
 
-$opening_pic_height: 200px;
-$opening_pic_width: 300px;
+$content_width: 600px;
+$opening_pic_height_small: 200px;
+$opening_pic_width_small: 300px;
+$opening_media_space: 2px;
 
 
 .content {
@@ -77,19 +79,18 @@ $opening_pic_width: 300px;
   margin: auto;
 
   .content_blk_opening {
-    max-width: 600px;
-    min-width: 400px;
+    width: $content_width;
     margin: 0px auto 0px auto;
     padding-bottom: $blk_spacing;
-    height: $opening_pic_height;
+    height: $opening_pic_height_small;
 
     .opening_media {
       display: inline;
 
       img {
-        width: $opening_pic_width;
-        height: $opening_pic_height;
-        margin: 0px;
+        width: $opening_pic_width_small - $opening_media_space;
+        height: $opening_pic_height_small;
+        margin: 0px $opening_media_space 0px 0px;
         padding: 0px;
         overflow: hidden;
         float: left;
@@ -97,12 +98,54 @@ $opening_pic_width: 300px;
       }
 
       video {
-        width: $opening_pic_width;
-        height: $opening_pic_height;
+        width: $opening_pic_width_small;
+        height: $opening_pic_height_small;
         margin: 0px;
         padding: 0px;
         overflow: hidden;
         float: left;
+      }
+
+      .simple_overlay {
+
+        display: none;
+        z-index: 10000;
+
+        background-color: #333;
+
+        width: $opening_pic_width_small*3;
+        height: $opening_pic_height_small*3;
+        border: 1px solid #666;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        -moz-box-shadow: 0 0 90px 5px #000;
+        -webkit-box-shadow: 0 0 90px #000;
+
+        img {
+          width: $opening_pic_width_small*3;
+          height: $opening_pic_height_small*3;
+        }
+
+        video {
+          width: $opening_pic_width_small*3;
+          height: $opening_pic_height_small*3;
+          margin: 0px;
+          padding: 0px;
+          overflow: hidden;
+          float: left;
+        }
+      }
+
+      .simple_overlay .close {
+        background-image:url(../img/close.png);
+        position:absolute;
+        right:-15px;
+        top:-15px;
+        cursor:pointer;
+        height:35px;
+        width:35px;
       }
     }
 
@@ -110,8 +153,7 @@ $opening_pic_width: 300px;
 
   .content_blk_city{
     text-align: right;
-    max-width: 600px;
-    min-width: 600px;
+    width: $content_width;
     margin: 0px auto 0px auto;
     padding-bottom: $blk_spacing;
 

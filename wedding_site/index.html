@@ -3,7 +3,10 @@
 <head>
     <title>JustUs</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/overlay.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/overlay.css">-->
+
+    <!--JQuery-->
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
 
     <!--Video JS-->
     <link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
@@ -28,12 +31,22 @@
     <div class="content">
         <div class="content_blk_opening">
             <div class="opening_media">
+                <img src="img/morning.jpg" alt="Picture1" rel="#over2">
+                <div class="simple_overlay" id="over2">
+                    <a class="close"></a>
+                    <video controls class="video-js vjs-default-skin">
+                        <source src="video/oceans.mp4" type="video/mp4" rel="#topvid">
+                        Morning on the Brooklyn Bridge
+                    </video>
+                </div>
 
-                <video controls class="video-js vjs-default-skin">
-                    <source src="video/oceans.mp4" type="video/mp4" rel="#topvid">
-                    Morning on the Brooklyn Bridge
-                </video>
-                <img src="" alt="Picture1">
+                <img src="img/laughing.jpg" alt="Picture1" rel="#over1">
+                <div class="simple_overlay" id="over1">
+                    <a class="close"></a>
+                    <img src="img/pic1.jpg" alt="Picture1">
+                </div>
+
+
             </div>
         </div>
         <div class="content_blk_city">
@@ -123,6 +136,11 @@
 </div>
 
 
+<script>
+    $(document).ready(function() {
+        $("img[rel]").overlay();
+    });
+</script>
 
 </body>
 </html>
