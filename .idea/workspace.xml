@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b444605a-cc9a-4b33-9ec0-285bd6302b1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wedding_site/video/oceans.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wedding_site/css/overlay.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wedding_site/style.css" afterPath="$PROJECT_DIR$/wedding_site/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wedding_site/style.scss" afterPath="$PROJECT_DIR$/wedding_site/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding_site/index.html" afterPath="$PROJECT_DIR$/wedding_site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="design.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b444605a-cc9a-4b33-9ec0-285bd6302b1a" time="1392057154305" ignored="false" />
+    <file path="/Dummy.txt" changelist="b444605a-cc9a-4b33-9ec0-285bd6302b1a" time="1392060662637" ignored="false" />
     <file path="/README.md" changelist="b444605a-cc9a-4b33-9ec0-285bd6302b1a" time="1391398459555" ignored="false" />
     <file path="/style.scss" changelist="b444605a-cc9a-4b33-9ec0-285bd6302b1a" time="1391399071328" ignored="false" />
     <file path="/index.html" changelist="b444605a-cc9a-4b33-9ec0-285bd6302b1a" time="1392057386367" ignored="false" />
@@ -36,16 +38,16 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wedding_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+                <state line="20" column="44" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.scss" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wedding_site/style.scss">
+          <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wedding_site/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.5263158">
+                <state line="32" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.52747256">
                   <folding />
                 </state>
               </provider>
@@ -55,10 +57,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wedding_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="55" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.21142857">
+                <state line="14" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="-8.75">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="overlay.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wedding_site/css/overlay.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -173,6 +184,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style.scss" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wedding_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -183,6 +234,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wedding_site/css" />
+      <recent name="$PROJECT_DIR$/wedding_site" />
       <recent name="$PROJECT_DIR$/wedding_site/video" />
     </key>
   </component>
@@ -211,12 +264,18 @@
       <created>1391398341993</created>
       <updated>1391398341993</updated>
     </task>
+    <task id="LOCAL-00001" summary="added oceans ex video and link to videoJS">
+      <created>1392060668253</created>
+      <updated>1392060668253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-540" y="-1058" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -277,7 +336,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="added oceans ex video and link to videoJS" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -291,12 +350,13 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="added oceans ex video and link to videoJS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wedding_site/style.scss">
+    <entry file="file://$PROJECT_DIR$/wedding_site/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="199" column="59" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0">
           <folding />
@@ -317,14 +377,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wedding_site/style.scss">
+    <entry file="file://$PROJECT_DIR$/wedding_site/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="54" selection-start="3115" selection-end="3115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wedding_site/style.scss">
+    <entry file="file://$PROJECT_DIR$/wedding_site/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="54" selection-start="3115" selection-end="3115" vertical-scroll-proportion="0.0">
           <folding />
@@ -343,16 +403,23 @@
         <state line="3" column="70" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wedding_site/index.html">
+    <entry file="file://$PROJECT_DIR$/wedding_site/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+        <state line="32" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.52747256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wedding_site/style.scss">
+    <entry file="file://$PROJECT_DIR$/wedding_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="443" selection-end="443" vertical-scroll-proportion="0.5263158">
+        <state line="14" column="29" selection-start="363" selection-end="363" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wedding_site/css/overlay.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
