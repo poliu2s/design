@@ -386,7 +386,9 @@ $opening_media_space: 2px;
 
             }
             p {
-              padding: $gallery_pic_h /4;
+              padding-left: $gallery_pic_h /4;
+              padding-top: $gallery_pic_h/4;
+              padding-right: 5px;
               margin: 0px;
 
               text-align: right;
