@@ -64,7 +64,7 @@
             <div class="content_blk_media_gallery">
                 <div class="gallery_row1">
                     <div class="gallery_row1_col1">
-                        <img src="img/media_large.jpg" rel="#over1"/>
+                        <img src="img/media_large.jpg" rel="#over2"/>
                     </div>
 
 
@@ -80,7 +80,7 @@
 
                 <div class="gallery_row2">
                     <div class="gallery_row2_col1">
-                        <img src="img/media_large.jpg" rel="#over1"/>
+                        <img src="img/media_large.jpg" rel="#over2"/>
                     </div>
 
 
@@ -94,9 +94,11 @@
                     </div>
                 </div>
 
+
+
                 <div class="gallery_row3">
                     <div class="gallery_row3_col1">
-                        <img src="img/media_large.jpg" rel="#over1"/>
+                        <img src="img/media_large.jpg" rel="#over2"/>
                     </div>
 
 
@@ -105,11 +107,12 @@
                             <img src="img/media_small1.jpg" rel="#over1"/>
                         </div>
                         <div class="gallery_row3_col2_bot" id="load_more">
-                            <p>+ Load more +</p>
+                            <p id="txt_load"></p>
                         </div>
                     </div>
                 </div>
 
+                <div id="extra_rows"></div>
 
             </div>
         </div>
@@ -160,6 +163,11 @@
 
         </div>
 
+
+
+
+
+
     </div>
 
 
@@ -175,10 +183,18 @@
 
 
 <script>
+
+    // Page Load
+    var txt_load_flag = true;
     $(document).ready(function() {
+        document.getElementById('txt_load').innerHTML="Load more +";
+
+
         $("img[rel]").overlay({mask: '#000'});
     });
 
+
+    // Overlays
     var overlay = document.getElementById('over2');
     var video = document.getElementById('morning');
     var video_close = document.getElementById('close1');
@@ -191,10 +207,17 @@
 
 
     // Load some new media elements
+
     var load = document.getElementById('load_more');
     load.style.cursor = 'pointer';
     load.onclick = function() {
-
+        if (txt_load_flag == true) {
+            txt_load_flag = false;
+            document.getElementById('txt_load').innerHTML="Load less -";
+        } else {
+            txt_load_flag = true;
+            document.getElementById('txt_load').innerHTML="Load more +";
+        }
     }
 </script>
 
