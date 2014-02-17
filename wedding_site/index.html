@@ -112,7 +112,26 @@
                     </div>
                 </div>
 
-                <div id="extra_rows"></div>
+
+                <!---------------- EXTRA ROWS ---------------------->
+                <div id="extra_rows" class="extra_rows">
+                    <div class="gallery_row2">
+                        <div class="gallery_row2_col1">
+                            <img src="img/media_large.jpg" rel="#over2"/>
+                        </div>
+
+
+                        <div class="gallery_row2_col2">
+                            <div class="gallery_row2_col2_top">
+                                <img src="img/media_small1.jpg" rel="#over1"/>
+                            </div>
+                            <div class="gallery_row2_col2_bot">
+                                <img src="img/media_small2.jpg" rel="#over1"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -189,7 +208,7 @@
     $(document).ready(function() {
         document.getElementById('txt_load').innerHTML="Load more +";
 
-
+        $("#extra_rows").hide();
         $("img[rel]").overlay({mask: '#000'});
     });
 
@@ -213,19 +232,17 @@
         if (txt_load_flag == true) {
             txt_load_flag = false;
             document.getElementById('txt_load').innerHTML="Load less -";
+            $("#extra_rows").show();
 
-            document.getElementById('extra_rows').innerHTML = extra_row;
         } else {
             txt_load_flag = true;
             document.getElementById('txt_load').innerHTML="Load more +";
+            $("#extra_rows").hide();
 
-            document.getElementById('extra_rows').innerHTML = "";
         }
     }
 
 
-    // Code for extra media gallery rows to load
-    var extra_row = "<div class=gallery_row2><div class=gallery_row2_col1><img src=img/media_large.jpg rel=#over2></div><div class=gallery_row2_col2><div class=gallery_row2_col2_top><img src=img/media_small1.jpg rel=#over1></div><div class=gallery_row2_col2_bot><img src=img/media_small2.jpg rel=#over1></div></div></div>";
 </script>
 
 </body>
