@@ -144,7 +144,7 @@ body {
       background-color: white;
       width: 600px;
       text-align: left;
-      height: 630px; }
+      min-height: 630px; }
       .content .content_blk_media .content_blk_media_gallery .gallery_row1 {
         height: 210px;
         padding-top: 6px;
